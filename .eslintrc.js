@@ -4,7 +4,7 @@ module.exports = {
     es2022: true,
     node: true,
   },
-  extends: ['eslint:recommended', 'prettier'],
+  extends: ['eslint:recommended', 'prettier:recommended'],
   plugins: ['prettier'],
   parserOptions: {
     ecmaVersion: 13,
